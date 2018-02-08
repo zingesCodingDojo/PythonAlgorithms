@@ -64,6 +64,33 @@ class LinkedList:
                 return
             current_index += 1
 
+    def find_m_to_last_element(self, m):
+        current = self.head
+        for _ in range(m):
+            if current.next:
+                current = current.next
+            else:
+                return None
+
+        m_behind = self.head
+
+        while current.next:
+            current = current.next
+            m_behind = m_behind.next
+        print("Data held within your desired mth(%d) element is: %d" % (m, m_behind.data))
+        return m_behind
+
+    def remove_head(self):
+        temp = self.head
+        if self.head.next is not None:
+            temp = self.head.next
+            del self.head
+            self.head = temp
+            print("There was a head")
+            return True
+        print("Error: No head to remove")
+        return False
+
 
 my_list = LinkedList()
 
@@ -75,17 +102,27 @@ my_list.display()
 
 print "Element at 2nd index: %d" % my_list.get(2)
 
-
 my_list.erase(1)
 my_list.display()
 
+my_list.append(1)
+my_list.append(2)
+my_list.append(3)
+my_list.append(4)
+my_list.append(5)
+my_list.append(6)
+my_list.append(7)
+my_list.append(8)
+my_list.append(9)
+my_list.append(10)
+my_list.append(11)
+my_list.display()
+my_list.erase(5)
 
-"""
-This is the Doubly Linked List Class.
-We will be able to add, remove, edit, traverse both forwards and backwards, and check for circular movements.
-"""
+print("Element at 2nd index: %d" % my_list.get(2))
 
-"""
-This is the Circular Linked List Class.
-We will be able to add, remove, edit, traverse.
-"""
+my_list.find_m_to_last_element(5)
+
+my_list.display()
+my_list.remove_head()
+my_list.display()
