@@ -175,7 +175,7 @@ print("Tree height: " + str(tree.height()))
 print(tree.search(10))
 print(tree.search(30))
 
-ree.insert(5)
+tree.insert(5)
 tree.insert(4)
 tree.insert(6)
 tree.insert(10)

@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self, data=None):
         self.data = data
@@ -108,3 +109,103 @@ my_list.find_m_to_last_element(5)
 
 my_list.remove_head()
 my_list.display()
+
+
+
+class SpecialNode:
+    def __init__(self, data):
+        self.data = data
+        self.leftChild = None
+        self.rightChild = None
+
+    def insert(self, data):
+        if self.data == data:
+            return False  # Do not allow duplicates in tree!
+        elif self.data > data:  # Is value less than?
+            if self.leftChild:
+                return self.leftChild.insert(data)
+            else:
+                self.leftChild = SpecialNode(data)
+                return True
+        else:
+            if self.rightChild:
+                return self.rightChild.insert(data)
+            else:
+                self.rightChild = SpecialNode(data)
+                return True
+
+    def find(self, data):
+        if self.data == data:
+            return True
+        elif self.data > data:
+            if self.leftChild:
+                return self.leftChild.find(data)
+            else:
+                return False  # No further nodes in left side of tree to find!
+        else:
+            if self.rightChild:
+                return self.rightChild.find(data)
+            else:
+                return False  # No further nodes in right side of the tree!
+
+    def preorder(self):
+        if self:
+            print(str(self.data))
+            if self.leftChild:
+                self.leftChild.preorder()
+            if self.rightChild:
+                self.rightChild.preorder()
+
+    def postorder(self):
+        if self:
+            if self.leftChild:
+                self.leftChild.postorder()
+            if self.rightChild:
+                self.rightChild.postorder()
+            print(str(self.data))
+
+    def inorder(self):
+        if self:
+            if self.leftChild:
+                self.leftChild.inorder()
+            print(str(self.data))
+            if self.rightChild:
+                self.rightChild.inorder()
+
+
+class BeautifulTree:
+    def __init__(self):
+        self.head = None
+
+    def insert(self, data):
+        if self.head:
+            return self.head.insert(data)
+        else:
+            self.head = SpecialNode(data)
+
+    def find(self, data):
+        if self.head:
+            return self.head.find(data)
+        else:
+            return False  # Data not in tree
+
+    def preorder(self):
+        print("PreOrder")
+        self.head.preorder()
+
+    def postorder(self):
+        print("PostOrder")
+        self.head.postorder()
+
+    def inorder(self):
+        print("InOrder")
+        self.head.inorder()
+
+
+myBST = BeautifulTree()
+myBST.insert(10)
+print(myBST.insert(15))
+myBST.insert(14)
+myBST.preorder()
+myBST.postorder()
+myBST.inorder()
