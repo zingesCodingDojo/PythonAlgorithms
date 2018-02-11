@@ -21,8 +21,7 @@ class SLL:
             if current_node.next is None:
                 current_node.next = new_node
                 return True
-
-            else:
+            elif current_node.next is not None:
                 temp = current_node.next
                 current_node.next = new_node
                 new_node.next = temp
@@ -81,7 +80,10 @@ class SLL:
         current_node = self.head
         if index is None and try_data is None:
             print("ERROR: 'Will not delete if Index is None and Data is None. Check arguments'")
-            return False
+            return None
+        elif index == 0:
+            self.remove_head()
+            return None
         else:
             if index >= self.length():
                 print("ERROR: 'Get index is out of range!")
@@ -106,17 +108,20 @@ class SLL:
 
     def find_m(self, m):
         current_node = self.head
-        for _ in range(m):
+
+        if m >= self.length():
+            print("ERROR: 'Your desired input is not within allowed range.")
+            return None
+
+        for _ in xrange(m):
             if current_node.next:
                 current_node = current_node.next
-            else:
-                print("ERROR: 'Your desired input is not found.'")
-                return None
         m_behind = self.head
 
         while current_node.next:
             current_node = current_node.next
             m_behind = m_behind.next
+        print(m_behind.data)
         return m_behind
 
     def remove_head(self):
@@ -124,13 +129,14 @@ class SLL:
             temp = self.head.next
             del self.head
             self.head = temp
-            print("Head found")
             return True
         print("ERROR: No head to remove.")
         return False
 
 
 my_list = SLL()
+
+my_list.erase(index=0)
 my_list.append(index=0, data=20)
 my_list.append(data=1)
 my_list.append(index=0, data=5)
@@ -142,5 +148,17 @@ my_list.append(index=int(my_list.length()), data=42)
 my_list.append(data=6)
 
 my_list.display()
-my_list.erase(index=4, try_data=None)
+my_list.erase(index=0, try_data=None)
+my_list.erase(index=0, try_data=None)
 my_list.display()
+my_list.erase(try_data=42)
+my_list.append(index=0, data=7)
+my_list.append(index=0, data=8)
+my_list.append(data=9)
+my_list.display()
+my_list.find_m(9)
+for _ in xrange(100):
+    my_list.append(data=_)
+my_list.display()
+
+
