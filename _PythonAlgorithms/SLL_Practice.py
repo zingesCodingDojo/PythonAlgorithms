@@ -7,6 +7,7 @@ class Node:
 class SLL:
     def __init__(self):
         self.head = Node()
+        self.size = 0
 
     def append(self, index=None, data=None):
         if data is None:
@@ -20,12 +21,12 @@ class SLL:
         if index is 0:
             if current_node.next is None:
                 current_node.next = new_node
-                return True
+
             elif current_node.next is not None:
                 temp = current_node.next
                 current_node.next = new_node
                 new_node.next = temp
-                return True
+            return True
 
         if index > self.length():
             print("ERROR: 'Get index is out of range! Cannot append.'")
@@ -135,31 +136,64 @@ class SLL:
         return False
 
 
-my_list = SLL()
+if __name__ == "__main__":
+    pass
+    # my_list = SLL()
+    #
+    # my_list.erase(index=0)
+    # my_list.append(index=0, data=20)
+    # my_list.append(data=1)
+    # my_list.append(index=0, data=5)
+    # my_list.append(data=2)
+    # my_list.append(data=3)
+    # my_list.append(data=4)
+    # my_list.append(data=5)
+    # my_list.append(index=int(my_list.length()), data=42)
+    # my_list.append(data=6)
+    #
+    # my_list.display()
+    # my_list.erase(index=0, try_data=None)
+    # my_list.erase(index=0, try_data=None)
+    # my_list.display()
+    # my_list.erase(try_data=42)
+    # my_list.append(index=0, data=17)
+    # my_list.append(index=0, data=8)
+    # my_list.append(data=9)
+    # my_list.display()
+    # my_list.find_m(7)
+    # for _ in xrange(100):
+    #     my_list.append(data=_)
+    # my_list.display()
 
-my_list.erase(index=0)
-my_list.append(index=0, data=20)
-my_list.append(data=1)
-my_list.append(index=0, data=5)
-my_list.append(data=2)
-my_list.append(data=3)
-my_list.append(data=4)
-my_list.append(data=5)
-my_list.append(index=int(my_list.length()), data=42)
-my_list.append(data=6)
-
-my_list.display()
-my_list.erase(index=0, try_data=None)
-my_list.erase(index=0, try_data=None)
-my_list.display()
-my_list.erase(try_data=42)
-my_list.append(index=0, data=17)
-my_list.append(index=0, data=8)
-my_list.append(data=9)
-my_list.display()
-my_list.find_m(7)
-# for _ in xrange(100):
-#     my_list.append(data=_)
-# my_list.display()
-
-
+    # class Person:
+    #     TITLES = ('Dr', 'Mr', 'Mrs', 'Ms')
+    #
+    #     def __init__(self, name, surname):
+    #         self.name = name
+    #         self.surname = surname
+    #
+    #     def fullname(self): # instance method
+    #         # instance object accessible through self
+    #         return "%s %s" % (self.name, self.surname)
+    #
+    #     @classmethod
+    #     def allowed_titles_starting_with(cls, startswith): # class method
+    #         # class or instance object accessible through cls
+    #         return [t for t in cls.TITLES if t.startswith(startswith)]
+    #
+    #     @staticmethod
+    #     def allowed_titles_ending_with(endswith): # static method
+    #         # no parameter for class or instance object
+    #         # we have to use Person directly
+    #         return [t for t in Person.TITLES if t.endswith(endswith)]
+    #
+    #
+    # jane = Person("Jane", "Smith")
+    #
+    # print(jane.fullname())
+    #
+    # print(jane.allowed_titles_starting_with("M"))
+    # print(Person.allowed_titles_starting_with("M"))
+    #
+    # print(jane.allowed_titles_ending_with("s"))
+    # print(Person.allowed_titles_ending_with("s"))

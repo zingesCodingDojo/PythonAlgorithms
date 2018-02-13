@@ -252,6 +252,7 @@ class SLL:
         for _ in xrange(m):
             if current_node.next:
                 current_node = current_node.next
+
         m_behind = self.head
 
         while current_node.next:
@@ -288,8 +289,11 @@ my_list.erase(index=0, try_data=None)
 my_list.erase(index=0, try_data=None)
 my_list.display()
 my_list.erase(try_data=42)
-my_list.append(index=0, data=7)
+my_list.append(index=0, data=17)
 my_list.append(index=0, data=8)
 my_list.append(data=9)
 my_list.display()
-my_list.find_m(9)
+my_list.find_m(7)
+# for _ in xrange(100):
+#     my_list.append(data=_)
+# my_list.display()

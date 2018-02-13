@@ -13,13 +13,25 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="_HackerRankPractice.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/_HackerRankPractice.py">
+          <leaf>
+            <file leaf-file-name="LL_Flatten.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/LL_Flatten.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="763">
-                    <caret line="151" column="37" lean-forward="true" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
+                  <state relative-caret-position="413">
+                    <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
                     <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="SLL_Practice.py" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/SLL_Practice.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="2085">
+                    <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+                    <folding>
+                      <marker date="1518428554000" expanded="true" signature="4114:6061" ph="..." />
+                    </folding>
                   </state>
                 </provider>
               </entry>
@@ -34,7 +46,7 @@
       <file leaf-file-name="Practice__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practice__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2094">
+            <state relative-caret-position="-2372">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -61,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_SLL.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_SLL.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_SLL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="283" column="22" lean-forward="true" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="22" />
+            <state relative-caret-position="4470">
+              <caret line="298" column="19" lean-forward="false" selection-start-line="298" selection-start-column="19" selection-end-line="298" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SLL_Practice.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SLL_Practice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -74,7 +96,7 @@
       <file leaf-file-name="_DLL.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_DLL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
+            <state relative-caret-position="780">
               <caret line="127" column="29" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="29" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -90,7 +112,7 @@
       <file leaf-file-name="_BST.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_BST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2189">
+            <state relative-caret-position="2400">
               <caret line="161" column="14" lean-forward="false" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -129,14 +151,16 @@
         <option value="$PROJECT_DIR$/_DLL.py" />
         <option value="$PROJECT_DIR$/_SLL.py" />
         <option value="$PROJECT_DIR$/_HackerRankPractice.py" />
+        <option value="$PROJECT_DIR$/SLL_Practice.py" />
+        <option value="$PROJECT_DIR$/LL_Flatten.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1059" />
-    <option name="y" value="-1057" />
-    <option name="width" value="960" />
-    <option name="height" value="1057" />
+    <option name="x" value="-1057" />
+    <option name="y" value="-1055" />
+    <option name="width" value="955" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -153,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +188,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -183,7 +207,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._HackerRankPractice">
+  <component name="RunManager" selected="Python.LL_Flatten">
+    <configuration name="LL_Flatten" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="_PythonAlgorithms" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LL_Flatten.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="Practice__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +242,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="_BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SLL_Practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -213,24 +254,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="_PythonAlgorithms" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_BST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="_DLL" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="_PythonAlgorithms" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_DLL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SLL_Practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,18 +295,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python._SLL" />
-      <item index="1" class="java.lang.String" itemvalue="Python._BST" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Practice__" />
-      <item index="3" class="java.lang.String" itemvalue="Python._DLL" />
-      <item index="4" class="java.lang.String" itemvalue="Python._HackerRankPractice" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Practice__" />
+      <item index="2" class="java.lang.String" itemvalue="Python._HackerRankPractice" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LL_Flatten" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SLL_Practice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python._HackerRankPractice" />
-        <item index="1" class="java.lang.String" itemvalue="Python._SLL" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Practice__" />
-        <item index="3" class="java.lang.String" itemvalue="Python._BST" />
-        <item index="4" class="java.lang.String" itemvalue="Python._DLL" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LL_Flatten" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SLL_Practice" />
+        <item index="2" class="java.lang.String" itemvalue="Python._HackerRankPractice" />
+        <item index="3" class="java.lang.String" itemvalue="Python._SLL" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Practice__" />
       </list>
     </recent_temporary>
   </component>
@@ -300,13 +324,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1059" y="-1057" width="960" height="1057" extended-state="0" />
+    <frame x="-1057" y="-1055" width="955" height="1051" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21361257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13157895" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22030456" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22165474" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -328,11 +352,59 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Practice__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_Entrance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_Nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_DLL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="127" column="29" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#241#1466#0" expanded="false" />
+            <element signature="e#1466#1483#0" expanded="false" />
+            <element signature="e#1630#1672#0" expanded="false" />
+            <element signature="e#1774#1801#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_BST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="161" column="14" lean-forward="false" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Practice__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -481,7 +553,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_DLL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="780">
           <caret line="127" column="29" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -495,7 +567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_BST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2189">
+        <state relative-caret-position="2400">
           <caret line="161" column="14" lean-forward="false" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
@@ -505,24 +577,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practice__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2094">
+        <state relative-caret-position="-2372">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_SLL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="283" column="22" lean-forward="true" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_HackerRankPractice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="151" column="37" lean-forward="true" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_SLL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4470">
+          <caret line="298" column="19" lean-forward="false" selection-start-line="298" selection-start-column="19" selection-end-line="298" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LL_Flatten.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SLL_Practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding />
         </state>
       </provider>
